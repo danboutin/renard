@@ -1,0 +1,572 @@
+
+ <!DOCTYPE html>
+<!-- Test -->
+ <html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <title>Dômes Rocher Percé — Domaine Renard, Gaspésie</title>
+  <meta name="description" content="Vivez une expérience unique dans l'un de nos six dômes géodésiques entièrement équipés, situés à un jet de pierre du Rocher Percé en Gaspésie." />
+  <link rel="canonical" href="https://domainerenard.ca/fr" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dômes Rocher Percé — Domaine Renard" />
+  <meta property="og:description" content="Six dômes géodésiques de luxe face au Rocher Percé, en Gaspésie." />
+  <meta property="og:image" content="https://l.icdbcdn.com/oh/95302f92-1b1a-4dc0-b3f3-49f5a108323e.png?w=1200" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://domainerenard.ca/fr" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====================================================
+       NAVIGATION
+  ===================================================== -->
+  <nav class="nav" id="main-nav" aria-label="Navigation principale">
+    <a href="https://domainerenard.ca/fr" class="nav__logo" aria-label="Domaine Renard — Accueil">
+      <!-- Logo text — remplacez par <img> si vous avez le fichier logo -->
+      <div class="nav__logo-text">
+        Domaine Renard
+        <span>Dômes Rocher Percé</span>
+      </div>
+    </a>
+
+    <ul class="nav__links" role="list">
+      <li><a href="https://domainerenard.ca/fr">Accueil</a></li>
+      <li class="nav__dropdown">
+        <a href="https://domainerenard.ca/fr/tous-les-domes1">Choisissez votre dôme !</a>
+        <ul class="nav__dropdown-menu" role="list">
+          <li><a href="https://domainerenard.ca/fr/dome-1-boise-au-domaine-renard">Dôme #1 — Vue boisée</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-2-boise-au-domaine-renard">Dôme #2 — Vue boisée</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-3-vue-mer-au-domaine-renard">Dôme #3 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-4-vue-mer-au-domaine-renard">Dôme #4 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-5-vue-mer-au-domaine-renard">Dôme #5 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-6-vue-mer-au-domaine-renard">Dôme #6 — Vue mer</a></li>
+        </ul>
+      </li>
+      <li><a href="https://domainerenard.ca/fr/tous-les-domes1">Disponibilités ?</a></li>
+      <li><a href="https://domainerenard.ca/fr/contactez-nous">Contactez-nous</a></li>
+    </ul>
+
+    <div class="nav__right">
+      <a href="tel:+14187824560" class="nav__phone">+1 (418) 782-4560</a>
+      <a href="https://domainerenard.ca/fr/tous-les-domes1" class="btn-cta">Réserver ici !</a>
+    </div>
+
+    <!-- Hamburger -->
+    <button class="nav__burger" id="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-mobile">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Menu mobile" aria-modal="true">
+    <button class="nav__mobile-close" id="nav-close" aria-label="Fermer le menu">✕</button>
+    <a href="https://domainerenard.ca/fr">Accueil</a>
+    <a href="https://domainerenard.ca/fr/tous-les-domes1">Nos dômes</a>
+    <a href="https://domainerenard.ca/fr/tous-les-domes1">Disponibilités</a>
+    <a href="https://domainerenard.ca/fr/contactez-nous">Contact</a>
+    <a href="https://domainerenard.ca/fr/tous-les-domes1" class="btn-cta" style="margin-top:1rem">Réserver ici !</a>
+  </div>
+
+  <!-- ====================================================
+       HERO
+  ===================================================== -->
+  <section class="hero" aria-label="En-tête principal">
+    <div class="hero__slides" aria-hidden="true">
+      <!-- Slide 1 — Extérieur dôme vue mer -->
+      <div class="hero__slide active" style="background-image: url('https://l.icdbcdn.com/oh/e49cec78-c131-4c64-8437-8700fd2943a2.jpg?w=2080');"></div>
+      <!-- Slide 2 — Dôme #3 vue mer -->
+      <div class="hero__slide" style="background-image: url('https://l.icdbcdn.com/oh/13ce2aaf-ccfe-4aaf-b088-ebb0f4217511.jpg?w=2080');"></div>
+      <!-- Slide 3 — Dôme #5 vue mer paysage -->
+      <div class="hero__slide" style="background-image: url('https://l.icdbcdn.com/oh/6eb8e620-6353-460e-a438-5f43f46734a7.jpg?w=2080');"></div>
+      <!-- Slide 4 — Intérieur mezzanine -->
+      <div class="hero__slide" style="background-image: url('https://l.icdbcdn.com/oh/e8eb56e6-d9c1-45be-8174-bbc79c6c150f.jpg?w=2080');"></div>
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">Gaspésie · Percé · Géoparc UNESCO</span>
+      <h1 class="hero__title">
+        Dormez face au<br>
+        <em>Rocher Percé</em>
+      </h1>
+      <p class="hero__sub">
+        Six dômes géodésiques entièrement équipés, à un jet de pierre du Rocher Percé.
+        Vue panoramique sur l'île Bonaventure et le Cap d'Espoir.
+      </p>
+      <div class="hero__actions">
+        <a href="https://domainerenard.ca/fr/tous-les-domes1" class="btn-cta">Réserver maintenant</a>
+        <a href="#domes" class="btn-outline">Découvrir nos dômes</a>
+      </div>
+    </div>
+
+    <div class="hero__dots" role="group" aria-label="Navigation du diaporama">
+      <button class="hero__dot active" aria-label="Photo 1" data-slide="0"></button>
+      <button class="hero__dot" aria-label="Photo 2" data-slide="1"></button>
+      <button class="hero__dot" aria-label="Photo 3" data-slide="2"></button>
+      <button class="hero__dot" aria-label="Photo 4" data-slide="3"></button>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       INTRO STRIP
+  ===================================================== -->
+  <div class="intro" role="banner">
+    <p>
+      « Quelle que soit la saison, vivez une expérience unique dans l'un de nos six dômes
+      géodésiques entièrement équipés, au cœur du Géoparc UNESCO de Percé. »
+    </p>
+  </div>
+
+  <!-- ====================================================
+       FEATURES
+  ===================================================== -->
+  <section class="features" aria-label="Points forts">
+    <div class="features__grid">
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">🌊</span>
+        <h3 class="feature__title">Vue panoramique</h3>
+        <p class="feature__text">Vue imprenable sur l'île Bonaventure et le Rocher Percé depuis votre terrasse.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">🍳</span>
+        <h3 class="feature__title">Cuisine complète</h3>
+        <p class="feature__text">Four, micro-ondes, frigo de 60", BBQ au gaz, Nespresso et produits locaux fournis.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">🛏️</span>
+        <h3 class="feature__title">Confort absolu</h3>
+        <p class="feature__text">Lit queen à la mezzanine, sofa-lit queen, literie et serviettes incluses.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">🚗</span>
+        <h3 class="feature__title">Borne de recharge</h3>
+        <p class="feature__text">Stationnement gratuit avec borne de recharge type 2 pour véhicule électrique.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">📶</span>
+        <h3 class="feature__title">Internet 400 Mb+</h3>
+        <p class="feature__text">Wi-Fi haute vitesse et télé intelligente 32" avec accès aux applications de streaming.</p>
+      </div>
+      <div class="feature">
+        <span class="feature__icon" aria-hidden="true">🦊</span>
+        <h3 class="feature__title">Produits locaux</h3>
+        <p class="feature__text">Café torréfié localement, savonnerie Poussière d'Étoile de Percé, huile et épices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       DÔMES GRID
+  ===================================================== -->
+  <section class="domes" id="domes" aria-label="Nos six dômes">
+    <div class="domes__header">
+      <span class="section-eyebrow">Choisissez votre dôme</span>
+      <h2 class="section-title">Six expériences uniques</h2>
+      <p class="section-lead">
+        Chaque dôme est entièrement équipé et peut accueillir jusqu'à 4 personnes.
+        Choisissez entre la quiétude du boisé ou la magie de la vue sur l'océan.
+      </p>
+    </div>
+
+    <div class="domes__grid">
+      <!-- Dôme 1 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/a6a3b4f1-48e9-43fd-9f62-57f37ad4769f.jpg?w=800"
+               alt="Intérieur du Dôme #1 — Vue boisée, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue boisée</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #1 — Vue boisée</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            Niché dans un écrin boisé, ce dôme offre calme et intimité avec une terrasse
+            aménagée et BBQ au gaz.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-1-boise-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+
+      <!-- Dôme 2 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/4ff2b906-896b-499a-8e76-bb1232eb167d.jpg?w=800"
+               alt="Intérieur du Dôme #2 — Vue boisée, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue boisée</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #2 — Vue boisée</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            Immergé en pleine nature, avec cuisine complète, mezzanine douillette et
+            accès 24h/7.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-2-boise-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+
+      <!-- Dôme 3 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/13ce2aaf-ccfe-4aaf-b088-ebb0f4217511.jpg?w=800"
+               alt="Dôme #3 — Vue mer, Rocher Percé, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue mer</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #3 — Vue mer</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            Vue sur l'océan saisissante depuis la terrasse. Œuvres d'art originales
+            intégrées à la décoration.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-3-vue-mer-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+
+      <!-- Dôme 4 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/e49cec78-c131-4c64-8437-8700fd2943a2.jpg?w=800"
+               alt="Dôme #4 — Vue mer, Rocher Percé, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue mer</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #4 — Vue mer</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            BBQ au gaz, Nespresso, cuisinière, four et micro-ondes pour un séjour
+            parfaitement autonome.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-4-vue-mer-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+
+      <!-- Dôme 5 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/e6f5c304-942c-4233-ab09-ef922d2d2d41.jpg?w=800"
+               alt="Dôme #5 — Vue mer, panorama Bonaventure, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue mer</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #5 — Vue mer</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            Sèche-cheveux, chauffage au sol, air conditionné — tout le confort pour
+            toutes les saisons.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-5-vue-mer-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+
+      <!-- Dôme 6 -->
+      <article class="dome-card">
+        <div class="dome-card__img">
+          <img src="https://l.icdbcdn.com/oh/e8eb56e6-d9c1-45be-8174-bbc79c6c150f.jpg?w=800"
+               alt="Dôme #6 — Vue mer, mezzanine étoilée, Domaine Renard" loading="lazy" />
+          <span class="dome-card__badge">Vue mer</span>
+        </div>
+        <div class="dome-card__body">
+          <h3 class="dome-card__name">Dôme #6 — Vue mer</h3>
+          <div class="dome-card__meta">
+            <span>👥 4 pers.</span>
+            <span>🛏 2 lits</span>
+            <span>🚿 1 sdb</span>
+          </div>
+          <p class="dome-card__desc">
+            Dormez sous la voûte étoilée dans un grand lit queen douillet à la mezzanine,
+            face à l'horizon.
+          </p>
+          <a href="https://domainerenard.ca/fr/dome-6-vue-mer-au-domaine-renard" class="dome-card__link">
+            Voir le dôme →
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       EXPERIENCE SECTION
+  ===================================================== -->
+  <section class="experience" aria-label="L'expérience Domaine Renard">
+    <div class="experience__inner">
+      <div class="experience__media">
+        <img class="experience__img-main"
+             src="https://l.icdbcdn.com/oh/56122745-ee1c-405d-a3d6-712e61109f98.jpg?w=1040"
+             alt="Vue sur le Rocher Percé depuis le Domaine Renard, Gaspésie"
+             loading="lazy" />
+        <img class="experience__img-accent"
+             src="https://l.icdbcdn.com/oh/cdfe91ef-dcba-459a-93a2-7559812e0f4d.jpg?w=600"
+             alt="Œuvre d'art dans un dôme du Domaine Renard"
+             loading="lazy" />
+      </div>
+      <div class="experience__text">
+        <span class="section-eyebrow">L'expérience</span>
+        <h2 class="section-title">Recharger en pleine nature</h2>
+        <p class="section-lead">
+          Le Domaine Renard, c'est bien plus qu'un hébergement : c'est une invitation
+          à ralentir, respirer et vous laisser porter par la beauté brute de la Gaspésie.
+        </p>
+        <ul class="experience__list" role="list">
+          <li>À un jet de pierre du Rocher Percé et de l'île Bonaventure</li>
+          <li>Au cœur du Géoparc UNESCO de Percé</li>
+          <li>Fromageries, poissonneries et cafés torréfacteurs à proximité</li>
+          <li>Arrivée autonome 24h/7, départ détente à 11h</li>
+          <li>Politique d'annulation flexible — 96% remboursable jusqu'à 30 jours avant</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       LOCATION
+  ===================================================== -->
+  <section class="location" aria-label="Emplacement">
+    <div class="location__inner">
+      <div class="location__text">
+        <span class="section-eyebrow">Emplacement</span>
+        <h2 class="section-title">Au cœur de Percé</h2>
+        <p class="section-lead">
+          Situés au 425, route d'Irlande à Percé (QC), nos dômes vous placent à
+          distance de marche des attraits incontournables de la Gaspésie.
+        </p>
+        <address class="location__address">
+          <span aria-hidden="true" style="font-size:1.4rem;margin-top:2px">📍</span>
+          <div>
+            <strong>Domaine Renard — Dômes Rocher Percé</strong>
+            425 route d'Irlande, Percé, QC, Canada G0C 2L0<br>
+            <a href="tel:+14187824560">+1 (418) 782-4560</a><br>
+            <a href="mailto:reservation@domainerenard.ca">reservation@domainerenard.ca</a>
+          </div>
+        </address>
+      </div>
+      <div class="location__map">
+        <iframe
+          title="Carte Domaine Renard, Percé"
+          src="https://maps.google.com/maps?q=425+route+d'Irlande,+Percé,+QC,+Canada&output=embed&z=14"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="Carte Google Maps montrant l'emplacement du Domaine Renard à Percé">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       TESTIMONIALS
+  ===================================================== -->
+  <section class="testimonials" aria-label="Avis de nos clients">
+    <div class="testimonials__header">
+      <span class="section-eyebrow">Avis clients</span>
+      <h2 class="section-title">Ce qu'ils en disent</h2>
+    </div>
+    <div class="testimonials__grid">
+      <article class="testimonial">
+        <div class="testimonial__stars" aria-label="5 étoiles">★★★★★</div>
+        <blockquote class="testimonial__text">
+          « Un endroit absolument magique. Réveillé avec la vue sur le Rocher Percé,
+          on n'a plus jamais voulu partir. »
+        </blockquote>
+        <p class="testimonial__author">— Marie-Ève B., Montréal</p>
+      </article>
+      <article class="testimonial">
+        <div class="testimonial__stars" aria-label="5 étoiles">★★★★★</div>
+        <blockquote class="testimonial__text">
+          « Le dôme était impeccable, équipé de tout. La vue depuis la terrasse
+          au coucher de soleil : inoubliable. »
+        </blockquote>
+        <p class="testimonial__author">— Jean-François L., Québec</p>
+      </article>
+      <article class="testimonial">
+        <div class="testimonial__stars" aria-label="5 étoiles">★★★★★</div>
+        <blockquote class="testimonial__text">
+          « Parfait pour déconnecter. L'hôte est attentionné, les produits locaux
+          fournis font toute la différence. »
+        </blockquote>
+        <p class="testimonial__author">— Sophie T., Ottawa</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       CTA BAND
+  ===================================================== -->
+  <section class="cta-band" aria-label="Appel à l'action — Réservation">
+    <h2 class="cta-band__title">Prêt à vivre l'expérience&nbsp;?</h2>
+    <p class="cta-band__sub">
+      Vérifiez les disponibilités et réservez votre dôme en quelques clics.
+    </p>
+    <a href="https://domainerenard.ca/fr/tous-les-domes1" class="btn-white">
+      Voir les disponibilités
+    </a>
+  </section>
+
+  <!-- ====================================================
+       FOOTER
+  ===================================================== -->
+  <footer class="footer" aria-label="Pied de page">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="footer__brand-text">Domaine Renard</p>
+        <p class="footer__brand-sub">Dômes Rocher Percé · Gaspésie</p>
+        <p>
+          Six dômes géodésiques de luxe face au Rocher Percé, au cœur du Géoparc
+          UNESCO de Percé, Gaspésie.
+        </p>
+        <div class="footer__socials">
+          <a href="http://facebook.com/domainerenardrocherperce"
+             class="footer__social"
+             aria-label="Facebook — Domaine Renard"
+             target="_blank" rel="noopener noreferrer">f</a>
+          <a href="http://instagram.com/domainerenard"
+             class="footer__social"
+             aria-label="Instagram — Domaine Renard"
+             target="_blank" rel="noopener noreferrer">ig</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Nos dômes</h3>
+        <ul role="list">
+          <li><a href="https://domainerenard.ca/fr/dome-1-boise-au-domaine-renard">Dôme #1 — Vue boisée</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-2-boise-au-domaine-renard">Dôme #2 — Vue boisée</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-3-vue-mer-au-domaine-renard">Dôme #3 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-4-vue-mer-au-domaine-renard">Dôme #4 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-5-vue-mer-au-domaine-renard">Dôme #5 — Vue mer</a></li>
+          <li><a href="https://domainerenard.ca/fr/dome-6-vue-mer-au-domaine-renard">Dôme #6 — Vue mer</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Navigation</h3>
+        <ul role="list">
+          <li><a href="https://domainerenard.ca/fr">Accueil</a></li>
+          <li><a href="https://domainerenard.ca/fr/tous-les-domes1">Disponibilités</a></li>
+          <li><a href="https://domainerenard.ca/fr/contactez-nous">Contactez-nous</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Contact</h3>
+        <address>
+          425 route d'Irlande<br>
+          Percé, QC, Canada<br>
+          G0C 2L0<br><br>
+          <a href="tel:+14187824560">+1 (418) 782-4560</a><br>
+          <a href="mailto:reservation@domainerenard.ca">reservation@domainerenard.ca</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>©2026 Domaine Renard — Tous droits réservés</span>
+      <span>No CITQ : 627844 · Construit avec <a href="https://lodgify.com" target="_blank" rel="noopener noreferrer">Lodgify</a></span>
+    </div>
+  </footer>
+
+  <!-- ====================================================
+       JAVASCRIPT
+  ===================================================== -->
+  <script>
+    /* --- Navbar scroll effect --- */
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* --- Hero slideshow --- */
+    const slides = document.querySelectorAll('.hero__slide');
+    const dots   = document.querySelectorAll('.hero__dot');
+    let current  = 0;
+    let timer;
+
+    function goTo(n) {
+      slides[current].classList.remove('active');
+      dots[current].classList.remove('active');
+      current = (n + slides.length) % slides.length;
+      slides[current].classList.add('active');
+      dots[current].classList.add('active');
+    }
+
+    function autoplay() {
+      timer = setInterval(() => goTo(current + 1), 5000);
+    }
+
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        clearInterval(timer);
+        goTo(i);
+        autoplay();
+      });
+    });
+
+    autoplay();
+
+    /* --- Mobile nav --- */
+    const burger  = document.getElementById('nav-burger');
+    const mobileNav = document.getElementById('nav-mobile');
+    const closeBtn  = document.getElementById('nav-close');
+
+    function openMobile() {
+      mobileNav.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMobile() {
+      mobileNav.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    burger.addEventListener('click', openMobile);
+    closeBtn.addEventListener('click', closeMobile);
+    mobileNav.addEventListener('click', e => {
+      if (e.target.tagName === 'A') closeMobile();
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeMobile();
+    });
+
+    /* --- Reduced motion: pause slideshow --- */
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      clearInterval(timer);
+    }
+  </script>
+</body>
+</html>
