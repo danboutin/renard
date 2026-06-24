@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/zbhbfpmy/public_html/renard
+    - /bin/cp -R images $DEPLOYPATH
